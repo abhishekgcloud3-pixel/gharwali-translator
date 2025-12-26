@@ -1,0 +1,1171 @@
+[
+  {
+    "garhwali_word": "Namaste",
+    "hindi_meaning": "नमस्ते",
+    "english_meaning": "Hello",
+    "usage_example": "Namaste, tu kaise hai?",
+    "category": "phrase"
+  },
+  {
+    "garhwali_word": "Shukriya",
+    "hindi_meaning": "धन्यवाद",
+    "english_meaning": "Thank you",
+    "usage_example": "Shukriya, tumhara bahut dhanyavaad.",
+    "category": "phrase"
+  },
+  {
+    "garhwali_word": "Ghar",
+    "hindi_meaning": "घर",
+    "english_meaning": "Home",
+    "usage_example": "Mera ghar sundar hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Paani",
+    "hindi_meaning": "पानी",
+    "english_meaning": "Water",
+    "usage_example": "Mujhe paani chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Karna",
+    "hindi_meaning": "करना",
+    "english_meaning": "To do",
+    "usage_example": "Mujhe kaam karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Jana",
+    "hindi_meaning": "जाना",
+    "english_meaning": "To go",
+    "usage_example": "Main bazaar jana chahta hun.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Accha",
+    "hindi_meaning": "अच्छा",
+    "english_meaning": "Good",
+    "usage_example": "Yeh accha hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Bura",
+    "hindi_meaning": "बुरा",
+    "english_meaning": "Bad",
+    "usage_example": "Yeh bura hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Khaana",
+    "hindi_meaning": "खाना",
+    "english_meaning": "Food",
+    "usage_example": "Mujhe khaana chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Doodh",
+    "hindi_meaning": "दूध",
+    "english_meaning": "Milk",
+    "usage_example": "Mujhe doodh chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Kitab",
+    "hindi_meaning": "किताब",
+    "english_meaning": "Book",
+    "usage_example": "Mujhe ek kitab chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Ladki",
+    "hindi_meaning": "लड़की",
+    "english_meaning": "Girl",
+    "usage_example": "Woh ladki sundar hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Ladka",
+    "hindi_meaning": "लड़का",
+    "english_meaning": "Boy",
+    "usage_example": "Woh ladka accha hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Ma",
+    "hindi_meaning": "माँ",
+    "english_meaning": "Mother",
+    "usage_example": "Meri ma bahut acchi hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Pita",
+    "hindi_meaning": "पिता",
+    "english_meaning": "Father",
+    "usage_example": "Mere pita bahut acche hain.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Bhai",
+    "hindi_meaning": "भाई",
+    "english_meaning": "Brother",
+    "usage_example": "Mera bhai bahut accha hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Behen",
+    "hindi_meaning": "बहन",
+    "english_meaning": "Sister",
+    "usage_example": "Meri behen bahut acchi hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Dost",
+    "hindi_meaning": "दोस्त",
+    "english_meaning": "Friend",
+    "usage_example": "Mera dost bahut accha hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Pahad",
+    "hindi_meaning": "पहाड़",
+    "english_meaning": "Mountain",
+    "usage_example": "Garhwal ke pahad sundar hain.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Nadi",
+    "hindi_meaning": "नदी",
+    "english_meaning": "River",
+    "usage_example": "Ganga nadi pavitra hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Jungle",
+    "hindi_meaning": "जंगल",
+    "english_meaning": "Forest",
+    "usage_example": "Garhwal ke jungle sundar hain.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Gaadi",
+    "hindi_meaning": "गाड़ी",
+    "english_meaning": "Car",
+    "usage_example": "Meri gaadi bahut acchi hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Scooter",
+    "hindi_meaning": "स्कूटर",
+    "english_meaning": "Scooter",
+    "usage_example": "Mera scooter bahut accha hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Cycle",
+    "hindi_meaning": "साइकिल",
+    "english_meaning": "Bicycle",
+    "usage_example": "Mujhe cycle chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Kamra",
+    "hindi_meaning": "कमरा",
+    "english_meaning": "Room",
+    "usage_example": "Mera kamra sundar hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Rasoi",
+    "hindi_meaning": "रसोई",
+    "english_meaning": "Kitchen",
+    "usage_example": "Meri rasoi sundar hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Bathroom",
+    "hindi_meaning": "बाथरूम",
+    "english_meaning": "Bathroom",
+    "usage_example": "Mera bathroom sundar hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Bistar",
+    "hindi_meaning": "बिस्तर",
+    "english_meaning": "Bed",
+    "usage_example": "Mera bistar sundar hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Kursi",
+    "hindi_meaning": "कुर्सी",
+    "english_meaning": "Chair",
+    "usage_example": "Mujhe kursi chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Meja",
+    "hindi_meaning": "मेज",
+    "english_meaning": "Table",
+    "usage_example": "Mujhe meja chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Almari",
+    "hindi_meaning": "अलमारी",
+    "english_meaning": "Cupboard",
+    "usage_example": "Mujhe almari chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Kapda",
+    "hindi_meaning": "कपड़ा",
+    "english_meaning": "Cloth",
+    "usage_example": "Mujhe kapda chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Juta",
+    "hindi_meaning": "जूता",
+    "english_meaning": "Shoe",
+    "usage_example": "Mujhe juta chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Topi",
+    "hindi_meaning": "टोपी",
+    "english_meaning": "Cap",
+    "usage_example": "Mujhe topi chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Chashma",
+    "hindi_meaning": "चश्मा",
+    "english_meaning": "Glasses",
+    "usage_example": "Mujhe chashma chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Ghadi",
+    "hindi_meaning": "घड़ी",
+    "english_meaning": "Watch",
+    "usage_example": "Mujhe ghadi chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Mobile",
+    "hindi_meaning": "मोबाइल",
+    "english_meaning": "Mobile",
+    "usage_example": "Mujhe mobile chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Laptop",
+    "hindi_meaning": "लैपटॉप",
+    "english_meaning": "Laptop",
+    "usage_example": "Mujhe laptop chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "TV",
+    "hindi_meaning": "टीवी",
+    "english_meaning": "TV",
+    "usage_example": "Mujhe TV chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Fridge",
+    "hindi_meaning": "फ्रिज",
+    "english_meaning": "Fridge",
+    "usage_example": "Mujhe fridge chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "AC",
+    "hindi_meaning": "एसी",
+    "english_meaning": "AC",
+    "usage_example": "Mujhe AC chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Fan",
+    "hindi_meaning": "पंखा",
+    "english_meaning": "Fan",
+    "usage_example": "Mujhe fan chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Bulb",
+    "hindi_meaning": "बल्ब",
+    "english_meaning": "Bulb",
+    "usage_example": "Mujhe bulb chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Batti",
+    "hindi_meaning": "बत्ती",
+    "english_meaning": "Light",
+    "usage_example": "Mujhe batti chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Dawa",
+    "hindi_meaning": "दवा",
+    "english_meaning": "Medicine",
+    "usage_example": "Mujhe dawa chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Doctor",
+    "hindi_meaning": "डॉक्टर",
+    "english_meaning": "Doctor",
+    "usage_example": "Mujhe doctor chahiye.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Hospital",
+    "hindi_meaning": "हॉस्पिटल",
+    "english_meaning": "Hospital",
+    "usage_example": "Mujhe hospital jana hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "School",
+    "hindi_meaning": "स्कूल",
+    "english_meaning": "School",
+    "usage_example": "Mujhe school jana hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "College",
+    "hindi_meaning": "कॉलेज",
+    "english_meaning": "College",
+    "usage_example": "Mujhe college jana hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Office",
+    "hindi_meaning": "ऑफिस",
+    "english_meaning": "Office",
+    "usage_example": "Mujhe office jana hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Dukan",
+    "hindi_meaning": "दुकान",
+    "english_meaning": "Shop",
+    "usage_example": "Mujhe dukan jana hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Bazaar",
+    "hindi_meaning": "बाजार",
+    "english_meaning": "Market",
+    "usage_example": "Mujhe bazaar jana hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Hotel",
+    "hindi_meaning": "होटल",
+    "english_meaning": "Hotel",
+    "usage_example": "Mujhe hotel jana hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Restaurant",
+    "hindi_meaning": "रेस्तरां",
+    "english_meaning": "Restaurant",
+    "usage_example": "Mujhe restaurant jana hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Park",
+    "hindi_meaning": "पार्क",
+    "english_meaning": "Park",
+    "usage_example": "Mujhe park jana hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Mandir",
+    "hindi_meaning": "मंदिर",
+    "english_meaning": "Temple",
+    "usage_example": "Mujhe mandir jana hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Gurudwara",
+    "hindi_meaning": "गुरुद्वारा",
+    "english_meaning": "Gurudwara",
+    "usage_example": "Mujhe gurudwara jana hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Church",
+    "hindi_meaning": "चर्च",
+    "english_meaning": "Church",
+    "usage_example": "Mujhe church jana hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Masjid",
+    "hindi_meaning": "मस्जिद",
+    "english_meaning": "Mosque",
+    "usage_example": "Mujhe masjid jana hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Hava",
+    "hindi_meaning": "हवा",
+    "english_meaning": "Air",
+    "usage_example": "Hava thandi hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Barish",
+    "hindi_meaning": "बारिश",
+    "english_meaning": "Rain",
+    "usage_example": "Barish ho rahi hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Dhup",
+    "hindi_meaning": "धूप",
+    "english_meaning": "Sunlight",
+    "usage_example": "Dhup tej hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Thand",
+    "hindi_meaning": "ठंड",
+    "english_meaning": "Cold",
+    "usage_example": "Thand bahut hai.",
+    "category": "noun"
+  },
+  {
+    "garhwali_word": "Garam",
+    "hindi_meaning": "गर्म",
+    "english_meaning": "Hot",
+    "usage_example": "Garam bahut hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Thanda",
+    "hindi_meaning": "ठंडा",
+    "english_meaning": "Cold",
+    "usage_example": "Thanda bahut hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Achha",
+    "hindi_meaning": "अच्छा",
+    "english_meaning": "Good",
+    "usage_example": "Yeh achha hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Khush",
+    "hindi_meaning": "खुश",
+    "english_meaning": "Happy",
+    "usage_example": "Main khush hun.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Dukhi",
+    "hindi_meaning": "दुखी",
+    "english_meaning": "Sad",
+    "usage_example": "Main dukhi hun.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Bhukha",
+    "hindi_meaning": "भूखा",
+    "english_meaning": "Hungry",
+    "usage_example": "Main bhukha hun.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Pyasa",
+    "hindi_meaning": "प्यासा",
+    "english_meaning": "Thirsty",
+    "usage_example": "Main pyasa hun.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Thak",
+    "hindi_meaning": "थक",
+    "english_meaning": "Tired",
+    "usage_example": "Main thak gaya hun.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Bimar",
+    "hindi_meaning": "बिमार",
+    "english_meaning": "Sick",
+    "usage_example": "Main bimar hun.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Sundar",
+    "hindi_meaning": "सुंदर",
+    "english_meaning": "Beautiful",
+    "usage_example": "Yeh sundar hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Mota",
+    "hindi_meaning": "मोटा",
+    "english_meaning": "Fat",
+    "usage_example": "Woh mota hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Patla",
+    "hindi_meaning": "पतला",
+    "english_meaning": "Thin",
+    "usage_example": "Woh patla hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Lamba",
+    "hindi_meaning": "लंबा",
+    "english_meaning": "Tall",
+    "usage_example": "Woh lamba hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Nata",
+    "hindi_meaning": "नाटा",
+    "english_meaning": "Short",
+    "usage_example": "Woh nata hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Geela",
+    "hindi_meaning": "गीला",
+    "english_meaning": "Wet",
+    "usage_example": "Yeh geela hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Sukha",
+    "hindi_meaning": "सूखा",
+    "english_meaning": "Dry",
+    "usage_example": "Yeh sukha hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Kala",
+    "hindi_meaning": "काला",
+    "english_meaning": "Black",
+    "usage_example": "Yeh kala hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Safed",
+    "hindi_meaning": "सफेद",
+    "english_meaning": "White",
+    "usage_example": "Yeh safed hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Lal",
+    "hindi_meaning": "लाल",
+    "english_meaning": "Red",
+    "usage_example": "Yeh lal hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Hara",
+    "hindi_meaning": "हरा",
+    "english_meaning": "Green",
+    "usage_example": "Yeh hara hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Neela",
+    "hindi_meaning": "नीला",
+    "english_meaning": "Blue",
+    "usage_example": "Yeh neela hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Pila",
+    "hindi_meaning": "पीला",
+    "english_meaning": "Yellow",
+    "usage_example": "Yeh pila hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Bhura",
+    "hindi_meaning": "भूरा",
+    "english_meaning": "Brown",
+    "usage_example": "Yeh bhura hai.",
+    "category": "adjective"
+  },
+  {
+    "garhwali_word": "Teji",
+    "hindi_meaning": "तेजी",
+    "english_meaning": "Fast",
+    "usage_example": "Woh teji se daudta hai.",
+    "category": "adverb"
+  },
+  {
+    "garhwali_word": "Aahista",
+    "hindi_meaning": "आहिस्ता",
+    "english_meaning": "Slow",
+    "usage_example": "Woh aahista chalta hai.",
+    "category": "adverb"
+  },
+  {
+    "garhwali_word": "Jaldi",
+    "hindi_meaning": "जल्दी",
+    "english_meaning": "Quickly",
+    "usage_example": "Jaldi karo.",
+    "category": "adverb"
+  },
+  {
+    "garhwali_word": "Dheere",
+    "hindi_meaning": "धीरे",
+    "english_meaning": "Slowly",
+    "usage_example": "Dheere chalo.",
+    "category": "adverb"
+  },
+  {
+    "garhwali_word": "Zor",
+    "hindi_meaning": "ज़ोर",
+    "english_meaning": "Hard",
+    "usage_example": "Zor se maro.",
+    "category": "adverb"
+  },
+  {
+    "garhwali_word": "Halki",
+    "hindi_meaning": "हल्की",
+    "english_meaning": "Lightly",
+    "usage_example": "Halki se pakdo.",
+    "category": "adverb"
+  },
+  {
+    "garhwali_word": "Khaana khana",
+    "hindi_meaning": "खाना खाना",
+    "english_meaning": "To eat food",
+    "usage_example": "Mujhe khaana khana hai.",
+    "category": "phrase"
+  },
+  {
+    "garhwali_word": "Paani peena",
+    "hindi_meaning": "पानी पीना",
+    "english_meaning": "To drink water",
+    "usage_example": "Mujhe paani peena hai.",
+    "category": "phrase"
+  },
+  {
+    "garhwali_word": "Kaam karna",
+    "hindi_meaning": "काम करना",
+    "english_meaning": "To work",
+    "usage_example": "Mujhe kaam karna hai.",
+    "category": "phrase"
+  },
+  {
+    "garhwali_word": "Sona",
+    "hindi_meaning": "सोना",
+    "english_meaning": "To sleep",
+    "usage_example": "Mujhe sona hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Jagna",
+    "hindi_meaning": "जागना",
+    "english_meaning": "To wake up",
+    "usage_example": "Mujhe jagna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Hasna",
+    "hindi_meaning": "हंसना",
+    "english_meaning": "To laugh",
+    "usage_example": "Mujhe hasna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Rona",
+    "hindi_meaning": "रोना",
+    "english_meaning": "To cry",
+    "usage_example": "Mujhe rona hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Bolna",
+    "hindi_meaning": "बोलना",
+    "english_meaning": "To speak",
+    "usage_example": "Mujhe bolna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Sunna",
+    "hindi_meaning": "सुनना",
+    "english_meaning": "To listen",
+    "usage_example": "Mujhe sunna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Dekhna",
+    "hindi_meaning": "देखना",
+    "english_meaning": "To see",
+    "usage_example": "Mujhe dekhna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Samajhna",
+    "hindi_meaning": "समझना",
+    "english_meaning": "To understand",
+    "usage_example": "Mujhe samajhna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Likhna",
+    "hindi_meaning": "लिखना",
+    "english_meaning": "To write",
+    "usage_example": "Mujhe likhna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Padhna",
+    "hindi_meaning": "पढ़ना",
+    "english_meaning": "To read",
+    "usage_example": "Mujhe padhna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Gana",
+    "hindi_meaning": "गाना",
+    "english_meaning": "To sing",
+    "usage_example": "Mujhe gana hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Nachna",
+    "hindi_meaning": "नाचना",
+    "english_meaning": "To dance",
+    "usage_example": "Mujhe nachna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Khelna",
+    "hindi_meaning": "खेलना",
+    "english_meaning": "To play",
+    "usage_example": "Mujhe khelna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Chalna",
+    "hindi_meaning": "चलना",
+    "english_meaning": "To walk",
+    "usage_example": "Mujhe chalna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Bhagna",
+    "hindi_meaning": "भागना",
+    "english_meaning": "To run",
+    "usage_example": "Mujhe bhagna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Kudna",
+    "hindi_meaning": "कूदना",
+    "english_meaning": "To jump",
+    "usage_example": "Mujhe kudna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Tairna",
+    "hindi_meaning": "तैरना",
+    "english_meaning": "To swim",
+    "usage_example": "Mujhe tairna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Udna",
+    "hindi_meaning": "उड़ना",
+    "english_meaning": "To fly",
+    "usage_example": "Mujhe udna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Girna",
+    "hindi_meaning": "गिरना",
+    "english_meaning": "To fall",
+    "usage_example": "Mujhe girna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Uthna",
+    "hindi_meaning": "उठना",
+    "english_meaning": "To get up",
+    "usage_example": "Mujhe uthna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Baithna",
+    "hindi_meaning": "बैठना",
+    "english_meaning": "To sit",
+    "usage_example": "Mujhe baithna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Khada hona",
+    "hindi_meaning": "खड़ा होना",
+    "english_meaning": "To stand",
+    "usage_example": "Mujhe khada hona hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Letna",
+    "hindi_meaning": "लेटना",
+    "english_meaning": "To lie down",
+    "usage_example": "Mujhe letna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Chup hona",
+    "hindi_meaning": "चुप होना",
+    "english_meaning": "To be quiet",
+    "usage_example": "Mujhe chup hona hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Bolna band karna",
+    "hindi_meaning": "बोलना बंद करना",
+    "english_meaning": "To stop speaking",
+    "usage_example": "Mujhe bolna band karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Sunna band karna",
+    "hindi_meaning": "सुनना बंद करना",
+    "english_meaning": "To stop listening",
+    "usage_example": "Mujhe sunna band karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Dekhna band karna",
+    "hindi_meaning": "देखना बंद करना",
+    "english_meaning": "To stop seeing",
+    "usage_example": "Mujhe dekhna band karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Khaana band karna",
+    "hindi_meaning": "खाना बंद करना",
+    "english_meaning": "To stop eating",
+    "usage_example": "Mujhe khaana band karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Peena band karna",
+    "hindi_meaning": "पीना बंद करना",
+    "english_meaning": "To stop drinking",
+    "usage_example": "Mujhe peena band karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Sona band karna",
+    "hindi_meaning": "सोना बंद करना",
+    "english_meaning": "To stop sleeping",
+    "usage_example": "Mujhe sona band karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Kaam band karna",
+    "hindi_meaning": "काम बंद करना",
+    "english_meaning": "To stop working",
+    "usage_example": "Mujhe kaam band karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Chalna band karna",
+    "hindi_meaning": "चलना बंद करना",
+    "english_meaning": "To stop walking",
+    "usage_example": "Mujhe chalna band karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Bhagna band karna",
+    "hindi_meaning": "भागना बंद करना",
+    "english_meaning": "To stop running",
+    "usage_example": "Mujhe bhagna band karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Kudna band karna",
+    "hindi_meaning": "कूदना बंद करना",
+    "english_meaning": "To stop jumping",
+    "usage_example": "Mujhe kudna band karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Tairna band karna",
+    "hindi_meaning": "तैरना बंद करना",
+    "english_meaning": "To stop swimming",
+    "usage_example": "Mujhe tairna band karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Udna band karna",
+    "hindi_meaning": "उड़ना बंद करना",
+    "english_meaning": "To stop flying",
+    "usage_example": "Mujhe udna band karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Girna band karna",
+    "hindi_meaning": "गिरना बंद करना",
+    "english_meaning": "To stop falling",
+    "usage_example": "Mujhe girna band karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Uthna band karna",
+    "hindi_meaning": "उठना बंद करना",
+    "english_meaning": "To stop getting up",
+    "usage_example": "Mujhe uthna band karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Baithna band karna",
+    "hindi_meaning": "बैठना बंद करना",
+    "english_meaning": "To stop sitting",
+    "usage_example": "Mujhe baithna band karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Khada hona band karna",
+    "hindi_meaning": "खड़ा होना बंद करना",
+    "english_meaning": "To stop standing",
+    "usage_example": "Mujhe khada hona band karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Letna band karna",
+    "hindi_meaning": "लेटना बंद करना",
+    "english_meaning": "To stop lying down",
+    "usage_example": "Mujhe letna band karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Chup hona band karna",
+    "hindi_meaning": "चुप होना बंद करना",
+    "english_meaning": "To stop being quiet",
+    "usage_example": "Mujhe chup hona band karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Bolna shuru karna",
+    "hindi_meaning": "बोलना शुरू करना",
+    "english_meaning": "To start speaking",
+    "usage_example": "Mujhe bolna shuru karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Sunna shuru karna",
+    "hindi_meaning": "सुनना शुरू करना",
+    "english_meaning": "To start listening",
+    "usage_example": "Mujhe sunna shuru karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Dekhna shuru karna",
+    "hindi_meaning": "देखना शुरू करना",
+    "english_meaning": "To start seeing",
+    "usage_example": "Mujhe dekhna shuru karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Khaana shuru karna",
+    "hindi_meaning": "खाना शुरू करना",
+    "english_meaning": "To start eating",
+    "usage_example": "Mujhe khaana shuru karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Peena shuru karna",
+    "hindi_meaning": "पीना शुरू करना",
+    "english_meaning": "To start drinking",
+    "usage_example": "Mujhe peena shuru karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Sona shuru karna",
+    "hindi_meaning": "सोना शुरू करना",
+    "english_meaning": "To start sleeping",
+    "usage_example": "Mujhe sona shuru karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Kaam shuru karna",
+    "hindi_meaning": "काम शुरू करना",
+    "english_meaning": "To start working",
+    "usage_example": "Mujhe kaam shuru karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Chalna shuru karna",
+    "hindi_meaning": "चलना शुरू करना",
+    "english_meaning": "To start walking",
+    "usage_example": "Mujhe chalna shuru karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Bhagna shuru karna",
+    "hindi_meaning": "भागना शुरू करना",
+    "english_meaning": "To start running",
+    "usage_example": "Mujhe bhagna shuru karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Kudna shuru karna",
+    "hindi_meaning": "कूदना शुरू करना",
+    "english_meaning": "To start jumping",
+    "usage_example": "Mujhe kudna shuru karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Tairna shuru karna",
+    "hindi_meaning": "तैरना शुरू करना",
+    "english_meaning": "To start swimming",
+    "usage_example": "Mujhe tairna shuru karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Udna shuru karna",
+    "hindi_meaning": "उड़ना शुरू करना",
+    "english_meaning": "To start flying",
+    "usage_example": "Mujhe udna shuru karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Girna shuru karna",
+    "hindi_meaning": "गिरना शुरू करना",
+    "english_meaning": "To start falling",
+    "usage_example": "Mujhe girna shuru karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Uthna shuru karna",
+    "hindi_meaning": "उठना शुरू करना",
+    "english_meaning": "To start getting up",
+    "usage_example": "Mujhe uthna shuru karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Baithna shuru karna",
+    "hindi_meaning": "बैठना शुरू करना",
+    "english_meaning": "To start sitting",
+    "usage_example": "Mujhe baithna shuru karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Khada hona shuru karna",
+    "hindi_meaning": "खड़ा होना शुरू करना",
+    "english_meaning": "To start standing",
+    "usage_example": "Mujhe khada hona shuru karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Letna shuru karna",
+    "hindi_meaning": "लेटना शुरू करना",
+    "english_meaning": "To start lying down",
+    "usage_example": "Mujhe letna shuru karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Chup hona shuru karna",
+    "hindi_meaning": "चुप होना शुरू करना",
+    "english_meaning": "To start being quiet",
+    "usage_example": "Mujhe chup hona shuru karna hai.",
+    "category": "verb"
+  },
+  {
+    "garhwali_word": "Khaana khana shuru karna",
+    "hindi_meaning": "खाना खाना शुरू करना",
+    "english_meaning": "To start eating food",
+    "usage_example": "Mujhe khaana khana shuru karna hai.",
+    "category": "phrase"
+  },
+  {
+    "garhwali_word": "Paani peena shuru karna",
+    "hindi_meaning": "पानी पीना शुरू करना",
+    "english_meaning": "To start drinking water",
+    "usage_example": "Mujhe paani peena shuru karna hai.",
+    "category": "phrase"
+  },
+  {
+    "garhwali_word": "Kaam karna shuru karna",
+    "hindi_meaning": "काम करना शुरू करना",
+    "english_meaning": "To start working",
+    "usage_example": "Mujhe kaam karna shuru karna hai.",
+    "category": "phrase"
+  },
+  {
+    "garhwali_word": "Khaana khana band karna",
+    "hindi_meaning": "खाना खाना बंद करना",
+    "english_meaning": "To stop eating food",
+    "usage_example": "Mujhe khaana khana band karna hai.",
+    "category": "phrase"
+  },
+  {
+    "garhwali_word": "Paani peena band karna",
+    "hindi_meaning": "पानी पीना बंद करना",
+    "english_meaning": "To stop drinking water",
+    "usage_example": "Mujhe paani peena band karna hai.",
+    "category": "phrase"
+  },
+  {
+    "garhwali_word": "Kaam karna band karna",
+    "hindi_meaning": "काम करना बंद करना",
+    "english_meaning": "To stop working",
+    "usage_example": "Mujhe kaam karna band karna hai.",
+    "category": "phrase"
+  },
+  {
+    "garhwali_word": "Khaana khana",
+    "hindi_meaning": "खाना खाना",
+    "english_meaning": "To eat food",
+    "usage_example": "Mujhe khaana khana hai.",
+    "category": "phrase"
+  },
+  {
+    "garhwali_word": "Paani peena",
+    "hindi_meaning": "पानी पीना",
+    "english_meaning": "To drink water",
+    "usage_example": "Mujhe paani peena hai.",
+    "category": "phrase"
+  },
+  {
+    "garhwali_word": "Kaam karna",
+    "hindi_meaning": "काम करना",
+    "english_meaning": "To work",
+    "usage_example": "Mujhe kaam karna hai.",
+    "category": "phrase"
+  },
+  {
+    "garhwali_word": "Khaana khana",
+    "hindi_meaning": "खाना खाना",
+    "english_meaning": "To eat food",
+    "usage_example": "Mujhe khaana khana hai.",
+    "category": "phrase"
+  },
+  {
+    "garhwali_word": "Paani peena",
+    "hindi_meaning": "पानी पीना",
+    "english_meaning": "To drink water",
+    "usage_example": "Mujhe paani peena hai.",
+    "category": "phrase"
+  },
+  {
+    "garhwali_word": "Kaam karna",
+    "hindi_meaning": "काम करना",
+    "english_meaning": "To work",
+    "usage_example": "Mujhe kaam karna hai.",
+    "category": "phrase"
+  }
+]
