@@ -18,6 +18,7 @@ export const COLORS = {
 
 export const ROUTES = {
   home: '/',
+  songs: '/songs',
   about: '/about',
   services: '/services',
   contact: '/contact',
