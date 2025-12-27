@@ -74,3 +74,23 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Highlight untranslated words */
+.translation-output {
+  color: var(--color-foreground);
+  white-space: pre-wrap;
+}
+
+/* Style untranslated words */
+.untranslated-word {
+  background-color: rgba(255, 0, 0, 0.1);
+  color: rgba(255, 0, 0, 0.8);
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.dark .untranslated-word {
+  background-color: rgba(255, 0, 0, 0.2);
+  color: rgba(255, 100, 100, 0.9);
+}

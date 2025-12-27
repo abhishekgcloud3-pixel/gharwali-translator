@@ -1,5 +1,5 @@
-import { COLORS } from '@/lib/constants';
 import { Button } from '@/components/ui/button';
+import { TextTranslator } from '@/components/TextTranslator';
 
 export default function Home() {
   return (
@@ -21,6 +21,11 @@ export default function Home() {
             </Button>
           </div>
         </div>
+      </section>
+
+      {/* Text Translator Section */}
+      <section className="w-full py-8 md:py-12 lg:py-16">
+        <TextTranslator />
       </section>
 
       <section className="container py-8 md:py-12 lg:py-24 bg-slate-50 rounded-3xl">
