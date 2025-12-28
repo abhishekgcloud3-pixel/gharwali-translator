@@ -9,6 +9,7 @@ import { SongLyricPanel } from '@/components/SongLyricPanel';
 import { TranslationModeToggle } from '@/components/TranslationModeToggle';
 import { useSongTranslation } from '@/lib/hooks/useSongTranslation';
 import { Copy, Eraser } from 'lucide-react';
+import SpeechInputButton from './SpeechInputButton';
 
 const inputBaseClass =
   'w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background ' +
@@ -41,6 +42,36 @@ export const SongTranslator = () => {
     const safeLineCount = Math.max(1, lineCount);
     return Array.from({ length: safeLineCount }, (_, i) => String(i + 1)).join('\n');
   }, [lineCount]);
+
+  const handleSpeechTranscript = (transcript: string) => {
+    if (!textareaRef.current) {
+      setLyrics((prev: string) => prev + (prev.length > 0 ? ' ' : '') + transcript);
+      return;
+    }
+
+    const { selectionStart, selectionEnd } = textareaRef.current;
+    const currentText = lyrics;
+    
+    const prefix = currentText.substring(0, selectionStart);
+    const suffix = currentText.substring(selectionEnd);
+    
+    const newText = 
+      prefix + 
+      (selectionStart > 0 && !prefix.endsWith(' ') ? ' ' : '') +
+      transcript + 
+      (!suffix.startsWith(' ') && suffix.length > 0 ? ' ' : '') +
+      suffix;
+
+    setLyrics(newText);
+    
+    setTimeout(() => {
+      if (textareaRef.current) {
+        textareaRef.current.focus();
+        const newCursorPos = selectionStart + transcript.length + (selectionStart > 0 && !prefix.endsWith(' ') ? 1 : 0);
+        textareaRef.current.setSelectionRange(newCursorPos, newCursorPos);
+      }
+    }, 0);
+  };
 
   const handleScrollSync = () => {
     if (!textareaRef.current || !lineNumberRef.current) return;
@@ -128,18 +159,21 @@ export const SongTranslator = () => {
         {/* Lyrics input */}
         <Card className="mb-6 print:hidden">
           <CardHeader>
-            <CardTitle className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
-              <div className="flex items-center gap-2">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <CardTitle className="flex items-center gap-2">
                 <Badge variant="secondary" className="text-xs">
                   Garhwali
                 </Badge>
                 <span>Lyrics</span>
+              </CardTitle>
+              <div className="flex items-center gap-4">
+                <div className="hidden md:flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
+                  <span>Lines: {lineCount}</span>
+                  <span>Words: {wordCount}</span>
+                </div>
+                <SpeechInputButton onTranscriptChange={handleSpeechTranscript} />
               </div>
-              <div className="flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
-                <span>Lines: {lineCount}</span>
-                <span>Words: {wordCount}</span>
-              </div>
-            </CardTitle>
+            </div>
           </CardHeader>
           <CardContent>
             <div className="space-y-4">
