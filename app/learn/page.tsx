@@ -12,7 +12,7 @@ const phrases = [
   { garhwali: 'Namaste', meaning: 'Hello / Greetings' },
   { garhwali: 'Dhanyavaad', meaning: 'Thank you' },
   { garhwali: 'Tum kaisaa chaa?', meaning: 'How are you?' },
-  { garhwali: 'Mai thik chu', meaning: "I’m fine" },
+  { garhwali: 'Mai thik chu', meaning: "I'm fine" },
   { garhwali: 'Kothi jaandaa?', meaning: 'Where are you going?' },
   { garhwali: 'Mero naau ...', meaning: 'My name is ...' },
 ];
@@ -61,10 +61,10 @@ export default function LearnPage() {
             </p>
             <ul className="list-disc pl-5 space-y-2">
               <li>
-                <span className="font-medium">"aa"</span> is a long sound (like “father”)
+                <span className="font-medium">&#34;aa&#34;</span> is a long sound (like &#34;father&#34;)
               </li>
               <li>
-                <span className="font-medium">"ch"</span> is a soft “ch” (as in “chair”)
+                <span className="font-medium">&#34;ch&#34;</span> is a soft &#34;ch&#34; (as in &#34;chair&#34;)
               </li>
               <li>
                 Stress is usually gentle; the rhythm of speech matters more than strong emphasis.

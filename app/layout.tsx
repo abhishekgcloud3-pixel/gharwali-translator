@@ -14,32 +14,44 @@ export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
   maximumScale: 5,
+  themeColor: '#0D5C3E',
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://garhwaliseva.example.com'),
   title: {
     default: SITE_CONFIG.name,
     template: `%s | ${SITE_CONFIG.name}`,
   },
   description: SITE_CONFIG.description,
-  keywords: ['Garhwali', 'Uttarakhand', 'Garhwali translation', 'Garhwali language', 'Garhwali culture'],
-  authors: [{ name: SITE_CONFIG.name }],
-  creator: SITE_CONFIG.name,
+  keywords: SITE_CONFIG.keywords,
+  authors: SITE_CONFIG.authors,
+  creator: SITE_CONFIG.creator,
+  publisher: SITE_CONFIG.publisher,
+  robots: SITE_CONFIG.robots,
   openGraph: {
-    type: 'website',
-    locale: 'en_US',
-    siteName: SITE_CONFIG.name,
+    ...SITE_CONFIG.og,
     title: SITE_CONFIG.name,
     description: SITE_CONFIG.description,
+    url: '/',
+    siteName: SITE_CONFIG.og.siteName,
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: `${SITE_CONFIG.name} - Garhwali Language Preservation`,
+      },
+    ],
   },
   twitter: {
-    card: 'summary_large_image',
+    ...SITE_CONFIG.twitter,
     title: SITE_CONFIG.name,
     description: SITE_CONFIG.description,
+    images: ['/og-image.png'],
   },
-  icons: {
-    icon: '/favicon.ico',
-  },
+  icons: SITE_CONFIG.icons,
+  manifest: SITE_CONFIG.manifest,
 };
 
 export default function RootLayout({

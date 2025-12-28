@@ -1,12 +1,24 @@
 {
   "name": "garhwali-seva",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "Preserving the Garhwali language through translation, education, and community.",
+  "author": "Garhwali Seva Community",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "validate:dictionary": "node scripts/validate-dictionary.js",
+    "validate:all": "npm run typecheck && npm run lint && npm run validate:dictionary",
+    "clean": "rm -rf .next build coverage node_modules/.cache",
+    "reinstall": "npm run clean && rm -rf node_modules && npm install"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.6.0",

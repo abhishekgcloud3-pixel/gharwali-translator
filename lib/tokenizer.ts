@@ -28,9 +28,6 @@ export class Tokenizer {
     let i = 0;
     
     while (i < words.length) {
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      const currentWord = words[i].toLowerCase();
-      
       // Check for phrases starting at current position
       let phraseFound = false;
       const maxPhraseLength = Math.min(5, words.length - i); // Limit phrase length to 5 words

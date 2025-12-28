@@ -30,6 +30,7 @@ export const CopyButton = ({ textToCopy, ariaLabel = 'Copy to clipboard', classN
       }, 2000);
       return () => clearTimeout(timer);
     }
+    return undefined;
   }, [copied]);
 
   return (

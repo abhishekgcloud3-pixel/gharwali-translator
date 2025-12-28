@@ -1,7 +1,9 @@
 import { useState, useEffect, useCallback } from 'react';
 import { TranslationEngine } from '../translationEngine';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { TargetLanguage } from '../../types/dictionary';
+import type { TargetLanguage } from '@/types/dictionary';
+
+// Re-export TargetLanguage for use in components
+export type { TargetLanguage };
 
 export const useTranslation = () => {
   const [inputText, setInputText] = useState('');
