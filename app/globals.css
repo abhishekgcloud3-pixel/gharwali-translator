@@ -73,6 +73,24 @@
   body {
     @apply bg-background text-foreground;
   }
+  
+  /* Improve focus visibility */
+  *:focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+  }
+  
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Better touch targets on mobile */
+  @media (hover: none) and (pointer: coarse) {
+    button, a, input, textarea, select {
+      min-height: 44px;
+    }
+  }
 }
 
 /* Highlight untranslated words */

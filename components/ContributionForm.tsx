@@ -9,7 +9,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { useToast } from '@/hooks/use-toast';
+import { toast } from 'sonner';
 import { Loader2, Send, RotateCcw } from 'lucide-react';
 
 const GARHWALI_WORD_MAX = 100;
@@ -20,7 +20,6 @@ const CONTRIBUTOR_NAME_MAX = 100;
 const CONTRIBUTOR_EMAIL_MAX = 100;
 
 export function ContributionForm() {
-  const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = React.useState(false);
 
   const {
@@ -67,19 +66,15 @@ export function ContributionForm() {
         throw new Error(result.error || 'Failed to submit contribution');
       }
 
-      toast({
-        title: 'Contribution Submitted!',
+      toast.success('Contribution Submitted!', {
         description: 'Thank you for contributing to the Garhwali dictionary.',
-        variant: 'success',
       });
 
       reset();
     } catch (error) {
       const errorMessage = error instanceof Error ? error.message : 'Something went wrong';
-      toast({
-        title: 'Submission Failed',
+      toast.error('Submission Failed', {
         description: errorMessage,
-        variant: 'destructive',
       });
     } finally {
       setIsSubmitting(false);
