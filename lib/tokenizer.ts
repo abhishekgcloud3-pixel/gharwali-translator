@@ -28,11 +28,12 @@ export class Tokenizer {
     let i = 0;
     
     while (i < words.length) {
-      let currentWord = words[i].toLowerCase();
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      const currentWord = words[i].toLowerCase();
       
       // Check for phrases starting at current position
       let phraseFound = false;
-      let maxPhraseLength = Math.min(5, words.length - i); // Limit phrase length to 5 words
+      const maxPhraseLength = Math.min(5, words.length - i); // Limit phrase length to 5 words
       
       for (let length = maxPhraseLength; length >= 2; length--) {
         const potentialPhrase = words.slice(i, i + length).join(' ').toLowerCase();

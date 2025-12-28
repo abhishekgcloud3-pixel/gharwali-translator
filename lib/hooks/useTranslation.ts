@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { TranslationEngine } from '../translationEngine';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { TargetLanguage } from '../../types/dictionary';
 
 export const useTranslation = () => {
