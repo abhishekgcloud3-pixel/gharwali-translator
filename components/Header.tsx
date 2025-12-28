@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Navigation from './Navigation';
-import { SITE_CONFIG } from '@/lib/constants';
+import { SITE_CONFIG, ROUTES } from '@/lib/constants';
 import { Button } from '@/components/ui/button';
 
 export default function Header() {
@@ -16,9 +16,11 @@ export default function Header() {
         </div>
         <Navigation />
         <div className="flex items-center gap-4">
-          <Button variant="default">
-            Get Started
-          </Button>
+          <Link href={ROUTES.contribute}>
+            <Button variant="default">
+              Contribute
+            </Button>
+          </Link>
         </div>
       </div>
     </header>
