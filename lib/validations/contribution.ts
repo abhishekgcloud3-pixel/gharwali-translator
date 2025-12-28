@@ -29,3 +29,13 @@ export const contributionSchema = z.object({
 });
 
 export type ContributionFormData = z.infer<typeof contributionSchema>;
+
+export const translationSchema = z.object({
+  text: z.string().min(1, 'Text to translate is required').max(5000, 'Text must be 5000 characters or less'),
+  target_lang: z.enum(['hindi', 'english'], {
+    required_error: 'Target language is required',
+    invalid_type_error: 'Target language must be hindi or english',
+  }),
+});
+
+export type TranslationFormData = z.infer<typeof translationSchema>;

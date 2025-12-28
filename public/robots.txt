@@ -1,0 +1,15 @@
+# Garhwali Seva - Robots.txt
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://garhwaliseva.example.com/sitemap.xml
+
+# Disallow private/admin paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# Crawl-delay (optional, remove if not needed)
+# Crawl-delay: 10

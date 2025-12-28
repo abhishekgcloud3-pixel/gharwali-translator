@@ -27,5 +27,60 @@ export const ROUTES = {
 
 export const SITE_CONFIG = {
   name: 'Garhwali Seva',
-  description: 'A platform dedicated to Uttarakhand and Garhwali culture.',
+  description: 'Preserving the Garhwali language through translation, education, and community. A free, open-source platform for Uttarakhand culture.',
+  keywords: [
+    'Garhwali',
+    'Uttarakhand',
+    'language preservation',
+    'translation',
+    'Garhwali dictionary',
+    'Garhwali culture',
+    'Indian languages',
+    'endangered languages',
+    'Hindi translation',
+    'English translation',
+  ],
+  authors: [{ name: 'Garhwali Seva Community' }],
+  creator: 'Garhwali Seva',
+  publisher: 'Garhwali Seva',
+  og: {
+    siteName: 'Garhwali Seva',
+    type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@GarhwaliSeva',
+    creator: '@GarhwaliSeva',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  manifest: '/site.webmanifest',
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
 };
+
+export const DICTIONARY_CATEGORIES = [
+  'phrase',
+  'noun',
+  'verb',
+  'adjective',
+  'adverb',
+  'song_phrase',
+] as const;
+
+export type DictionaryCategory = typeof DICTIONARY_CATEGORIES[number];
+
+export const TRANSLATION_TARGETS = ['hindi', 'english'] as const;
+export type TargetLanguage = typeof TRANSLATION_TARGETS[number];
+
+export const API_RATE_LIMIT = {
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // limit each IP to 100 requests per windowMs
+};
+
+export const VERSION = '1.0.0';
