@@ -1,10 +1,12 @@
+'use client';
+
 import { useTranslation } from '@/lib/hooks/useTranslation';
 import { TranslationOutput } from './TranslationOutput';
 import { Button } from './ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
 import { Textarea } from './ui/textarea';
-import { Swap, RefreshCw, Info } from 'lucide-react';
+import { ArrowLeftRight, RefreshCw, Info } from 'lucide-react';
 import { useRef } from 'react';
 import SpeechInputButton from './SpeechInputButton';
 
@@ -21,8 +23,7 @@ export const TextTranslator = () => {
     swapped,
     handleInputChange,
     clearTranslations,
-    swapLanguages,
-    copyToClipboard
+    swapLanguages
   } = useTranslation();
 
   const textareaRef = useRef<HTMLTextAreaElement>(null);
@@ -186,10 +187,10 @@ export const TextTranslator = () => {
           <Button
             onClick={swapLanguages}
             variant="outline"
-            aria-label="Swap languages"
+            aria-label="ArrowLeftRight languages"
           >
-            <Swap className="h-4 w-4 mr-2" />
-            Swap Languages
+            <ArrowLeftRight className="h-4 w-4 mr-2" />
+            ArrowLeftRight Languages
           </Button>
           <Button
             onClick={clearTranslations}

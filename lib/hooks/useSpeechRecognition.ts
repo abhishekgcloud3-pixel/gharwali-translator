@@ -7,6 +7,7 @@ export const useSpeechRecognition = () => {
   const [interimTranscript, setInterimTranscript] = useState('');
   const [confidence, setConfidence] = useState(0);
   const [error, setError] = useState<string | null>(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const recognitionRef = useRef<any>(null);
 
   useEffect(() => {
@@ -16,6 +17,7 @@ export const useSpeechRecognition = () => {
       recognitionRef.current.continuous = true;
       recognitionRef.current.interimResults = true;
 
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       recognitionRef.current.onresult = (event: any) => {
         let interimTranscript = '';
         let currentFinalTranscript = '';
@@ -43,6 +45,7 @@ export const useSpeechRecognition = () => {
         }
       };
 
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       recognitionRef.current.onerror = (event: any) => {
         setError(getSpeechErrorMessage(event));
         setIsListening(false);
@@ -71,8 +74,8 @@ export const useSpeechRecognition = () => {
     try {
       recognitionRef.current.start();
       setIsListening(true);
-    } catch (err: any) {
-      if (err.name === 'InvalidStateError') {
+    } catch (err) {
+      if ((err as { name?: string }).name === 'InvalidStateError') {
         // Recognition already started
       } else {
         setError('Failed to start speech recognition');

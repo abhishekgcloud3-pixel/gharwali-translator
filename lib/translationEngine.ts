@@ -10,7 +10,8 @@ export class TranslationEngine {
   private translationCache: Map<string, { translation: string; metadata: TranslationMetadata }>;
 
   constructor() {
-    this.dictionary = dictionaryData;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    this.dictionary = dictionaryData as any;
     this.tokenizer = new Tokenizer(this.dictionary);
     this.wordIndex = new Map();
     this.phraseIndex = new Map();
@@ -55,7 +56,7 @@ export class TranslationEngine {
     const tokens = this.tokenizeText(text);
     let translation = '';
     let translatedCount = 0;
-    let untranslatedWords: string[] = [];
+    const untranslatedWords: string[] = [];
 
     for (const token of tokens) {
       // Try phrase lookup first

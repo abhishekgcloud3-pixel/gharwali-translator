@@ -1,6 +1,10 @@
-export const getSpeechRecognition = () => {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+type SpeechRecognitionConstructor = new (...args: any[]) => any;
+
+export const getSpeechRecognition = (): SpeechRecognitionConstructor | null => {
   if (typeof window !== 'undefined') {
     return (
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition
     );
   }
@@ -16,7 +20,7 @@ export interface SpeechRecognitionError {
   message: string;
 }
 
-export const getSpeechErrorMessage = (event: any): string => {
+export const getSpeechErrorMessage = (event: { error: string }): string => {
   switch (event.error) {
     case 'no-speech':
       return 'No speech was detected. Please try again.';
