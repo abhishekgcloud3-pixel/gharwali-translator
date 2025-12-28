@@ -9,6 +9,7 @@ import { ROUTES } from '@/lib/constants';
 const navItems = [
   { title: 'Home', href: ROUTES.home },
   { title: 'Song Translator', href: ROUTES.songs },
+  { title: 'Contribute', href: ROUTES.contribute },
   { title: 'About', href: ROUTES.about },
   { title: 'Services', href: ROUTES.services },
   { title: 'Contact', href: ROUTES.contact },

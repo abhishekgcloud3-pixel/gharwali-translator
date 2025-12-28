@@ -1,3 +1,5 @@
+'use client';
+
 import { useTranslation } from '@/lib/hooks/useTranslation';
 import { TranslationOutput } from './TranslationOutput';
 import { Button } from './ui/button';
@@ -21,8 +23,7 @@ export const TextTranslator = () => {
     swapped,
     handleInputChange,
     clearTranslations,
-    swapLanguages,
-    copyToClipboard
+    swapLanguages
   } = useTranslation();
 
   const textareaRef = useRef<HTMLTextAreaElement>(null);

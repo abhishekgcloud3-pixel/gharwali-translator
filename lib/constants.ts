@@ -22,6 +22,8 @@ export const ROUTES = {
   about: '/about',
   services: '/services',
   contact: '/contact',
+  contribute: '/contribute',
+  adminContributions: '/admin/contributions',
 };
 
 export const SITE_CONFIG = {
