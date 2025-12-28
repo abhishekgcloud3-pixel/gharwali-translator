@@ -20,8 +20,9 @@ export const ROUTES = {
   home: '/',
   songs: '/songs',
   about: '/about',
-  services: '/services',
-  contact: '/contact',
+  learn: '/learn',
+  faq: '/faq',
+  contribute: '/contribute',
 };
 
 export const SITE_CONFIG = {

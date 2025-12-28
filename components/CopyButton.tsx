@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Button } from './ui/button';
 import { Check, Copy } from 'lucide-react';
+import { toast } from 'sonner';
 
 export interface CopyButtonProps {
   textToCopy: string;
@@ -15,8 +16,10 @@ export const CopyButton = ({ textToCopy, ariaLabel = 'Copy to clipboard', classN
     try {
       await navigator.clipboard.writeText(textToCopy);
       setCopied(true);
+      toast.success('Copied to clipboard');
     } catch (error) {
       console.error('Failed to copy to clipboard:', error);
+      toast.error('Failed to copy');
     }
   };
 
