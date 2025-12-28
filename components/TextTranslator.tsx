@@ -5,10 +5,13 @@ import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
 import { Textarea } from './ui/textarea';
 import { Swap, RefreshCw, Info } from 'lucide-react';
+import { useRef } from 'react';
+import SpeechInputButton from './SpeechInputButton';
 
 export const TextTranslator = () => {
   const {
     inputText,
+    setInputText,
     hindiTranslation,
     englishTranslation,
     isLoading,
@@ -21,6 +24,39 @@ export const TextTranslator = () => {
     swapLanguages,
     copyToClipboard
   } = useTranslation();
+
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
+
+  const handleSpeechTranscript = (transcript: string) => {
+    if (!textareaRef.current) {
+      setInputText(prev => prev + (prev.length > 0 ? ' ' : '') + transcript);
+      return;
+    }
+
+    const { selectionStart, selectionEnd } = textareaRef.current;
+    const currentText = inputText;
+    
+    const prefix = currentText.substring(0, selectionStart);
+    const suffix = currentText.substring(selectionEnd);
+    
+    const newText = 
+      prefix + 
+      (selectionStart > 0 && !prefix.endsWith(' ') ? ' ' : '') +
+      transcript + 
+      (!suffix.startsWith(' ') && suffix.length > 0 ? ' ' : '') +
+      suffix;
+
+    setInputText(newText);
+    
+    // Set focus back to textarea after a short delay to allow state update
+    setTimeout(() => {
+      if (textareaRef.current) {
+        textareaRef.current.focus();
+        const newCursorPos = selectionStart + transcript.length + (selectionStart > 0 && !prefix.endsWith(' ') ? 1 : 0);
+        textareaRef.current.setSelectionRange(newCursorPos, newCursorPos);
+      }
+    }, 0);
+  };
 
   // Example translations for user guidance
   const examples = [
@@ -50,16 +86,23 @@ export const TextTranslator = () => {
         {/* Input Section */}
         <Card className="mb-6">
           <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <Badge variant="secondary" className="text-xs">
-                Garhwali
-              </Badge>
-              <span>Enter Garhwali Text</span>
-            </CardTitle>
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <CardTitle className="flex items-center gap-2">
+                <Badge variant="secondary" className="text-xs">
+                  Garhwali
+                </Badge>
+                <span>Enter Garhwali Text</span>
+              </CardTitle>
+              <SpeechInputButton 
+                onTranscriptChange={handleSpeechTranscript}
+                className="self-start sm:self-auto"
+              />
+            </div>
           </CardHeader>
           <CardContent>
             <div className="space-y-4">
               <Textarea
+                ref={textareaRef}
                 value={inputText}
                 onChange={handleInputChange}
                 placeholder="Type or paste Garhwali text here..."

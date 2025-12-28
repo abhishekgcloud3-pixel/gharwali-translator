@@ -31,10 +31,14 @@ export const useTranslation = () => {
   const handleInputChange = useCallback((e: React.ChangeEvent<HTMLTextAreaElement>) => {
     const text = e.target.value;
     setInputText(text);
-    setCharacterCount(text.length);
-    const words = text.trim() === '' ? 0 : text.trim().split(/\s+/).length;
-    setWordCount(words);
   }, []);
+
+  // Update counts when input text changes
+  useEffect(() => {
+    setCharacterCount(inputText.length);
+    const words = inputText.trim() === '' ? 0 : inputText.trim().split(/\s+/).length;
+    setWordCount(words);
+  }, [inputText]);
 
   // Clear all translations
   const clearTranslations = useCallback(() => {
